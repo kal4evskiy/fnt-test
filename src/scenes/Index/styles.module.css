@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-rows: 45px 1fr;
+  overflow: hidden;
+}
+.title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 6px 12px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background: var(--io-color-bg-normal);
+}
+.main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  overflow: hidden;
+}

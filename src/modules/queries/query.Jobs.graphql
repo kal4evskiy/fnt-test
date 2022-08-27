@@ -1,0 +1,9 @@
+# If this file is changed, remember to stop the app and run `pnpm dev` again
+query Jobs {
+  jobs {
+    id
+    name
+    status
+    createdAt
+  }
+}
